@@ -1,0 +1,701 @@
+html {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+body {
+  margin: 0;
+}
+
+
+/*Nav and Header*/
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 4rem;
+  width: 100%;
+  position: fixed;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 10;
+  background-color: #ffffff;
+  border-bottom: 2px solid #cccccc;
+
+}
+
+header #colmar {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+header #academy {
+  color: #66ccff;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+header img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding-left: 1.5rem;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+
+nav a {
+  display: inline-block;
+  padding-right: 1.25rem;
+
+
+}
+
+nav a:hover {
+  color: #66ccff;
+  text-decoration: underline;
+}
+
+/*Hero Section*/
+
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  height: auto;
+  z-index: 20;
+  padding-top: 4rem;
+  background-color: #cccccc;
+
+}
+
+
+.leftcolumn {
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 2rem 2.5rem 2rem 1.5rem;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+
+}
+
+.leftcolumn img {
+  width: 100%;
+  height: auto;
+}
+
+.rightcolumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 26.423rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align:start;
+      -ms-flex-align:start;
+          align-items:flex-start;
+  height: auto;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  -ms-flex-negative: 3;
+      flex-shrink: 3;
+}
+
+.headline {
+  width: 70%;
+  text-align: left;
+  font-weight:900;
+  font-size: 3rem;
+  -ms-flex-negative: 3;
+      flex-shrink: 3;
+}
+
+.subhead {
+  width: 70%;
+  text-align: left;
+  font-weight: 200;
+  font-size: 1.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  -ms-flex-negative: 3;
+      flex-shrink: 3;
+}
+
+.button {
+  width: 70%;
+  text-align: center;
+  background-color: #000000;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem 2rem;
+  -ms-flex-negative: 3;
+      flex-shrink: 3;
+
+}
+
+.button a {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+  display: block;
+  padding: .5rem;
+
+}
+
+.button:hover {
+  background-color: #66ccff;
+   -webkit-box-shadow: 10px 10px 5px grey;
+           box-shadow: 10px 10px 5px grey;
+}
+
+/*Information Overview Section*/
+
+article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  height: auto;
+  z-index: 20;
+}
+
+article .rightcolumn{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 26.423rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: auto;
+  padding-top: 1rem;
+  -ms-flex-negative: 3;
+      flex-shrink: 3;
+}
+
+.infodetails h1{
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.infodetails p {
+  color: #999999;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.infodetails h3 {
+  padding-top: 2rem;
+  color: #999999;
+}
+
+.featuredescription span {
+  display: inline-block;
+  padding-top: 1rem;
+}
+
+
+.featurebox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+
+}
+
+.featurebox span {
+  padding-bottom: .5rem;
+}
+
+.featurebox:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 10px 10px 5px grey;
+          box-shadow: 10px 10px 5px grey;
+
+}
+
+.featurebox:hover span {
+  color: #66ccff;
+  text-decoration: underline;
+}
+
+.featureimage {
+  width: 35%;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+}
+
+.featureimage img {
+  width: 100%;
+  height: auto;
+}
+
+.featuredescription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.featuredescription h1 {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+
+
+
+
+/*Courses Section*/
+
+
+.courseoverview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: #cccccc;
+
+
+}
+
+.courseoverview h1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.courses {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 2rem;
+
+}
+
+
+.coursebox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1rem;
+
+}
+
+.coursebox img {
+  display: block;
+  padding-bottom: 1rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.coursebox h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.coursebox h4 {
+  font-size: 1rem;
+  font-weight: normal;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.coursebox span {
+  font-size: 1rem;
+  font-weight: lighter;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  vertical-align: bottom;
+}
+
+.coursebox:hover {
+  background-color: #66ccff;
+  color: #FFFFFF;
+  -webkit-box-shadow: 10px 10px 5px grey;
+          box-shadow: 10px 10px 5px grey;
+}
+
+.coursebox span:hover {
+  color: #ffffff;
+}
+
+
+/*Thesis Section*/
+
+.thesis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+ width: 100%;
+  height: auto;
+  z-index: 20;
+
+}
+
+.thesis h4 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  height: auto;
+
+}
+
+.feature {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: 32px 40px 32px 24px;
+
+}
+
+.leftcolumn video {
+  width: 100%;
+  height: auto;
+}
+
+/*THESISSECTION important note - thesis boxes are .featureboxes, just like info section*/
+
+.thesis .rightcolumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 26.423rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: auto;
+  padding-top: 1rem;
+}
+
+/* Footer Section*/
+
+
+
+footer {
+  border-top: 1px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: auto;
+  z-index: 10;
+  background-color: #ffffff;
+  white-space: nowrap;
+  padding: 1rem;
+}
+
+
+.footernav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+.footernav a {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.footernav a:hover {
+  color: #66ccff;
+  text-decoration: underline;
+}
+
+
+/*--------------RESPONSIVE ELEMENTS-----------*/
+
+@media only screen and (max-width: 535px) and (orientation: portrait) {
+
+  html {
+   max-width: 535px;
+ }
+
+ body {
+   max-width: 535px;
+ }
+
+
+/*Responsive Header Elements*/
+
+header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+
+  nav {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+
+  header span {
+    display: none;
+  }
+
+  header .logo {
+    display: none;
+    height: 100%;
+    padding: 0;
+  }
+
+
+nav .text {
+    display: none;
+  }
+
+  /*hero section responsive elements*/
+
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+    z-index: 20;
+    padding-top: 4rem;
+    background-color: #cccccc;
+
+  }
+
+  .leftcolumn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+  }
+
+  .leftcolumn img {
+    width: 100%;
+    max-height: 12rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
+  }
+
+  .rightcolumn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .rightcolumn .headline {
+    font-size: 3rem;
+  }
+
+/*Information Section*/
+
+  article .leftcolumn {
+    display: none;
+  }
+
+article p {
+    text-decoration: none;
+  }
+
+/*Courses Section*/
+
+  .courseoverview {
+    background-color: #ffffff;
+    }
+
+.courses {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.courses img {
+  display: none;
+}
+  .courses a {
+    text-decoration: none;
+  }
+
+  .coursebox {
+    background-color: #cccccc;
+    margin: 0.5rem 1rem;
+  }
+
+  .coursebox h3 {
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+
+  .coursebox h4 {
+    display: none;
+  }
+
+  .coursebox span {
+    display: none;
+  }
+
+/*Thesis Section*/
+
+  .thesis .rightcolumn {
+    display:none;
+  }
+.infodetails {
+    display: none;
+  }
+
+  /*Footer Section*/
+
+footer {
+  white-space: normal;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+}
+
+/*Don't display icons on desktop*/
+
+@media only screen and (min-width: 536px) {
+  nav .icon {
+    display: none;
+    padding-right: 1.25rem;
+  }
+}
